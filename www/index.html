@@ -9,6 +9,12 @@
   </head>
   <body>
     <div id="content"></div>
+    <!-- Buttons -->
+    <button onclick="document.getElementById('successSound').play()">Play successSound local</button>
+    <button onclick="document.getElementById('successSound').play()">Play successSound local</button>
+    <!-- Audio -->
+    <audio id="successSound" src="sound/beep.mp3" type="audio/mpeg" ></audio>
+    <audio id="errorSound" src="sound/beep.mp3" type="audio/mpeg" ></audio>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
     <script src="js/app.js" type="text/jsx"></script>
